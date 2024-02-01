@@ -1,7 +1,7 @@
 const { guard, adminGuard } = require("../../../guards");
 const { statusAndError } = require("../../../log");
 const { Card } = require("../models/cards.model");
-const { CardValid } = require("../models/cardsJoi");
+const { BizNumberValid } = require("../models/cardsJoi");
 
 module.exports = app => {
     // change bizNumber
@@ -19,7 +19,7 @@ module.exports = app => {
         const card = await Card.findById(req.params.id);
 
         // check if the form is valid
-        const validate = CardValid.bizNumber.validate(req.body);
+        const validate = BizNumberValid.validate(req.body);
 
         // if validation fails
         if (validate.error) {

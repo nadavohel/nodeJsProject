@@ -20,6 +20,9 @@ module.exports = app => {
         if ((timeDiff <= 24) && (user.connectAttempts === 3)) {
             return res.status(401)
                 .send(`user can log in only more ${((24 - timeDiff) - ((24 - timeDiff) % 1))} hours and ${((((24 - timeDiff) % 1) * 60) - ((((24 - timeDiff) % 1) * 60) % 1))} minutes`);
+        } else if (timeDiff <= 0) {
+            user.connectAttempts = 0;
+            await user.save(user);
         }
 
         // if some information is missing
@@ -40,6 +43,7 @@ module.exports = app => {
         // if password not found
         if (!passwordMatch) {
             user.connectAttempts = user.connectAttempts + 1;
+            user.startDate = new Date;
             await user.save(user)
 
             statusAndError(403, "email or password is incorrect");

@@ -19,5 +19,9 @@ exports.CardValid = Joi.object({
         houseNumber: Joi.number().max(5).required(),
         zip: Joi.string().optional().allow(''),
     }),
-    bizNumber: Joi.string().optional().allow(''),
+    bizNumber: Joi.string().min(7).max(7).optional().allow(''),
+});
+
+exports.BizNumberValid = Joi.object({
+    bizNumber: Joi.string().min(7).max(7).regex(/[0-9]/).optional().allow(''),
 });

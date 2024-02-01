@@ -6,3 +6,15 @@ Time: 1/2/2024
 Status: 401
 errorMessage: user not authorized
 
+Time: 1/2/2024
+Status: 403
+errorMessage: "title" is required
+
+Time: 1/2/2024
+Status: 401
+errorMessage: bizNumber is already taken
+
+Time: 1/2/2024
+Status: 403
+errorMessage: card not found
+

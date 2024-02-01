@@ -154,3 +154,93 @@ Method: GET
 Route: /404Page.jpg
 Status: 200
 
+Time: 1/2/2024
+Time: 19:50:32
+Method: GET
+Route: /
+Status: 200
+
+Time: 1/2/2024
+Time: 19:50:32
+Method: GET
+Route: /style.css
+Status: 200
+
+Time: 1/2/2024
+Time: 19:50:32
+Method: GET
+Route: /script.js
+Status: 200
+
+Time: 1/2/2024
+Time: 19:50:32
+Method: GET
+Route: /404Page.jpg
+Status: 200
+
+Time: 1/2/2024
+Time: 19:50:40
+Method: GET
+Route: /cards
+Status: 200
+
+Time: 1/2/2024
+Time: 22:10:52
+Method: POST
+Route: /users/login
+Status: 200
+
+Time: 1/2/2024
+Time: 22:11:21
+Method: PATCH
+Route: /cards/bizNum/65bb7386815eb60890e8e1bc
+Status: 200
+
+Time: 1/2/2024
+Time: 22:11:33
+Method: PATCH
+Route: /cards/bizNum/65bb7386815eb60890e8e1bc
+Status: 200
+
+Time: 1/2/2024
+Time: 22:12:10
+Method: PATCH
+Route: /cards/bizNum/65bb7386815eb60890e8e1bc
+Status: 200
+
+Time: 1/2/2024
+Time: 22:15:08
+Method: PATCH
+Route: /cards/bizNum/65bb7386815eb60890e8e1bc
+Status: 200
+
+Time: 1/2/2024
+Time: 22:16:03
+Method: PATCH
+Route: /cards/bizNum/65bb7386815eb60890e8e1bc
+Status: 200
+
+Time: 1/2/2024
+Time: 22:16:10
+Method: PATCH
+Route: /cards/bizNum/65bb7386815eb60890e8e1bc
+Status: 200
+
+Time: 1/2/2024
+Time: 22:26:12
+Method: GET
+Route: /users/65bb7386815eb60890e8e1a9
+Status: 200
+
+Time: 1/2/2024
+Time: 22:28:51
+Method: GET
+Route: /cards/65b61f21e0c4bd09fd0d6ab5
+Status: 200
+
+Time: 1/2/2024
+Time: 22:29:05
+Method: GET
+Route: /cards/65bb7386815eb60890e8e1b8
+Status: 200
+
